@@ -48,12 +48,34 @@ img {
     }
 
     a {
-        // color: #fff;
+        color: #fff;
         padding: 0.45rem;
         margin: 0 0.25rem;
     }
 
     &:hover {
       color: $primary-color;  
+    }
+}
+
+
+// Landing
+.landing {
+    position: relative;
+    background: url('../img/backgroundimg2.jpg') no-repeat center center/cover;
+    height: 100vh;
+
+
+    &-inner {
+        display: flex;
+        flex-direction: column;
+        color: #fff;
+        height: 100%;
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+        background-color: rgba(0,0,0,0.6);
+        margin: auto;
+        align-items: center;
     }
 }
