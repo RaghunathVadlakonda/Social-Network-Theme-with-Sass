@@ -5,11 +5,17 @@
     margin-bottom: 7rem;
     max-width: $max-width;
     overflow: hidden;
-    padding: 0 2rem; 
-    text-align: center;
-    
+    padding: 0 2rem;
+
+    &-inner {
+        text-align: center;
+    }
 }
 
+// round image
+.round-img {
+    border-radius: 50%;
+}
 
 // text
 .x-large {

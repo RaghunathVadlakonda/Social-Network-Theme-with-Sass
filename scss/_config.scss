@@ -7,7 +7,7 @@ $max-width:1100px;
 
 // set text color based on the background
 @function set-text-color($color){
-    @if(lightness($color) > 50 ) {
+    @if(lightness($color) > 60 ) {
         @return #333;
     } @else {
         @return #fff;
@@ -17,7 +17,7 @@ $max-width:1100px;
 // set background color
 @mixin set-background($color) {
     background-color: $color;
-    color: #fff;
+    color: set-text-color($color);
 }
 
 
